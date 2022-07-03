@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://localhost:10000'});
+const API = axios.create({ baseURL: 'https://share-your-moments.herokuapp.com'});
 //const url = 'https://creatememoriesapp.herokuapp.com/posts';
 
 API.interceptors.request.use((req) => {
